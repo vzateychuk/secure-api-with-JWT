@@ -1,4 +1,4 @@
-package vez.practice.secureapijwtoauth0;
+package vez.practice.jwtdemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

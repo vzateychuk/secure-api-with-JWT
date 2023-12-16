@@ -1,4 +1,4 @@
-package vez.practice.secureapijwtoauth0;
+package vez.practice.jwtdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
