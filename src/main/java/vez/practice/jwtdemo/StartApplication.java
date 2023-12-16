@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SecureApiJwtOauth0Application {
+public class StartApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SecureApiJwtOauth0Application.class, args);
+		SpringApplication.run(StartApplication.class, args);
 	}
 
 }
