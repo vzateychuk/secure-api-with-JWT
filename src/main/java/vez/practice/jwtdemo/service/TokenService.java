@@ -24,8 +24,9 @@ public class TokenService {
                 .map((GrantedAuthority::getAuthority))
                 .collect(Collectors.joining(" "));
         JwtClaimsSet claims = JwtClaimsSet.builder()
-                .issuer("vzateychuk")
+                .issuer("token-service")
                 .issuedAt(now)
+                .claim("scope", scope)
                 .expiresAt(now.plus(1, ChronoUnit.DAYS))
                 .subject(authentication.getName())
                 .build();
