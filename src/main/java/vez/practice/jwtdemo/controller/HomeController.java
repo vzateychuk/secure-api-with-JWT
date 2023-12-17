@@ -10,7 +10,7 @@ public class HomeController {
 
     @GetMapping
     public String home(Principal principal) {
-        return "Hello: " + principal.getName() + ", (from secured endpoint)";
+        return "Hello: " + principal.getName();
     }
 
 }
